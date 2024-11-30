@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
   runtimeConfig: {
     public: {
-      clerkSecretKey: process.env.NUXT_CLERK_SECRET_KEY, // can be overridden by NUXT_PUBLIC_API_BASE environment variable
+      clerkSecretKey: process.env.CLERK_SECRET_KEY,
     }
   }
 })
